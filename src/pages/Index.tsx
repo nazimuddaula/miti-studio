@@ -41,6 +41,11 @@ const Index = () => {
     };
   }, []);
 
+  // Set page title for MiTi Studio
+  useEffect(() => {
+    document.title = "MiTi Studio | Creative Design Agency";
+  }, []);
+
   return (
     <div className="min-h-screen">
       <Navbar />

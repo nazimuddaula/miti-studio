@@ -15,9 +15,9 @@ const Footer = () => {
       <div className="container mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-12 mb-12">
           <div className="md:col-span-2">
-            <h3 className="text-xl font-display font-bold mb-4">Design Studio</h3>
+            <h3 className="text-xl font-display font-bold mb-4">MiTi Studio</h3>
             <p className="text-muted-foreground mb-6 max-w-md">
-              We create meaningful digital experiences that elevate brands and connect with audiences.
+              We create meaningful digital experiences that elevate brands and connect with audiences through innovative design solutions.
             </p>
             <div className="flex space-x-4">
               <a href="#" className="w-10 h-10 rounded-full bg-primary/5 flex items-center justify-center text-primary hover:bg-primary hover:text-white transition-colors">
@@ -67,7 +67,7 @@ const Footer = () => {
         
         <div className="border-t border-border pt-8 flex flex-col md:flex-row justify-between items-center">
           <p className="text-muted-foreground text-sm mb-4 md:mb-0">
-            © {new Date().getFullYear()} Design Studio. All rights reserved.
+            © {new Date().getFullYear()} MiTi Studio. All rights reserved.
           </p>
           <button
             onClick={scrollToTop}

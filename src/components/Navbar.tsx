@@ -48,7 +48,7 @@ const Navbar = () => {
     >
       <div className="flex items-center justify-between">
         <a href="#home" className="flex items-center">
-          <span className="text-xl font-display font-bold tracking-tight">Studio</span>
+          <span className="text-xl font-display font-bold tracking-tight">MiTi Studio</span>
         </a>
 
         {/* Desktop Menu */}
